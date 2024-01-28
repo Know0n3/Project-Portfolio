@@ -231,5 +231,5 @@
 	
 	nano hash2.txt												//KALI LINUX/ create .txt file and add user names & ntlm hashes
 	cat hash2.txt
-	john hash2.txt --format=NT 										//or john --format=NT hash2.txt		//crack ntlm hashes with john the ripper
+	john hash2.txt --format=NT 											//or john --format=NT hash2.txt		//crack ntlm hashes with john the ripper
 
